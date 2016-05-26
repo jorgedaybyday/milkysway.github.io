@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: url("///Users/jorgetorrens/Desktop/GENERAL_ASSEMBLY/HTML,%20CSS%20&%20Web%20Design/milkysway.github.io/unit_3/image/flower.jpg");
+  background-size: contain;
+  
+  color: #fff;
+  font-family: Helvetica;
+} 
+hr {
+	font-style: bold
+  width: 200px;
+}
+p {
+  font-size: 22px;
+  text-shadow:  0 1px black;
+}
+h1 {color: pink;
+	text-shadow:  0 2px black;
+	font-size: 120px; 
+	font-stretch: 8px;
+	letter-spacing: 40px;
+} 
+p {color: pink;}
+h2, p {color: pink}
+h3, p {color: pink}
+#slogan {text-shadow:  0 2px black;
+font-stretch: 8px;
+	letter-spacing: 40px;
+	}
