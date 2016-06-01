@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background: url(http://www.blogmodeart.com/wp-content/uploads/2014/12/guy-bourdin-charles-jourdan-chausseur-paris-chaussures-de-luxe.jpg);
+  background-size: cover;
+  color: #fff;
+  
+} 
+hr {font-style: bold;
+  width= "85%";
+  margin: 20px;
+}
+p {
+  font-size: 22px;
+  text-shadow:  0 1px black;
+}
+h1 {color: pink;
+  font-family: Helvetica;
+	text-shadow:  0 2px black;
+	font-size: 6em; 
+	font-stretch: 8px;
+	letter-spacing: 40px;
+} 
+p {color: pink;
+margin: 2em;
+font-family: Garamond, Helvetica;
+}
+h2 {color: pink;
+  text-shadow:  0 2px black;
+  font-stretch: 8px;
+	letter-spacing: 40px;
+	}
+a {color: hotpink}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {float: left;
+    display: inline;
+    border-right: 1px solid hotpink;
+}
+li a {
+    display: block;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: pink;
+}
