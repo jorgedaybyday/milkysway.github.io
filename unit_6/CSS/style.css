@@ -18,15 +18,13 @@ body {position: center;
     text-align: center;
     display: block;
 }
-#header {background-color: #FFED74;
+#header {
     display: block;
     margin-top: 14px;
     width: 950px;
-    
 }
 #nav {display: inline-block;
     list-style-type: none;
-    background-color: #E8C66A;
 }
 h1 {text-transform: capitalize;
 	text-transform: uppercase;
@@ -42,14 +40,12 @@ h2 {text-transform: capitalize;
     font-size: 2em;
     text-align: center;
 }
-p {font-family: Georgia, Times;
-    text-align: left;
+p { font-size: 12px;
+    font-family: Georgia, Times;
+    line-height: 30px;
+
  }
 
-ul {display: inline-block;
-    list-style-type: none; 
-    float: center;   
-}
 
 li {text-align: left;
 	border-right: 1px solid #bbb;
@@ -77,18 +73,19 @@ a { text-transform: capitalize;
     background-color: #white;
 }
 .picture { 
-    background-color:  #FFC675;
     float: left;
-    width: 500px;
+    overflow: auto;
     
 }
 
 .description { 
-    background-color: #E89C6C;
-    clear: both;
+    border: 1px solid #bbb;
+    margin-top: 10%;
+    padding: 1%;
+    overflow: auto;
+    text-align: left;
 }
 #footer {
-    background-color: #FF957E;
     height: 204px;
     font-weight: 400;
     font-size: 12px;
@@ -99,7 +96,7 @@ a { text-transform: capitalize;
     clear:both;
 }
 #one {
-    background-color: #FFE2B8;
+    float: left;
 }
  
 
