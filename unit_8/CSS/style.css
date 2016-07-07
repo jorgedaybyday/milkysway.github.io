@@ -1,0 +1,117 @@
+body {
+  font-size: .9rem;
+  font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+nav {position: absolute;
+    bottom: 0;
+    list-style-type: none;
+    display: block;
+    position: relative;
+}
+h1 {
+  display: block;
+  margin-top: .9rem; 
+  font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+}
+ul {
+    list-style-type: none; 
+    font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;    
+}
+nav li {
+  border-right: .016rem solid #bbb;
+  display: inline-block; 
+  list-style: none;
+  float: left;
+}
+li a {
+    color: black;
+    text-align: center;
+    padding: .9rem 1rem;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #e7e7e7;
+}
+li:last-child {
+    border-right: none;
+}
+a { text-transform: capitalize;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    padding: .5rem;
+    background-color: #white;
+}
+h2 {font-size: .85rem;
+}
+h3, p {font-family: Georgia, Times, serif; 
+    text-align: left;
+    font-size: .65rem;
+    font-style: italic;
+  }
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-top: 1rem;
+  margin-left: -2.5%; 
+}
+ul.rig li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+ul.rig li img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 10px;
+}
+ul.rig li h3 {
+  margin: 0 0 5px;
+}
+ul.rig li p {
+  font-size: .9em;
+  
+ 
+}
+
+ul.rig.columns-2 li {
+  width: 47.5%; 
+}
+
+ul.rig.columns-3 li {
+  width: 30.83%; 
+}
+
+ul.rig.columns-4 li {
+  width: 22.5%; 
+}
+ 
+@media (max-width: 480px) {
+  nav {margin-left: 0}
+  ul.grid-nav li {
+    display: block;
+    margin: 0 0 5px;
+  }
+  ul.grid-nav li a {
+    display: block;
+  }
+  ul.rig {
+    margin-left: 0;
+  }
+  ul.rig li {
+    width: 100% !important; 
+    margin: 0 0 20px;
+  }
+}
