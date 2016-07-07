@@ -7,8 +7,9 @@ body {
 nav {position: absolute;
     bottom: 0;
     list-style-type: none;
-    display: block;
+    display: inline-block;
     position: relative;
+
 }
 h1 {
   display: block;
